@@ -3,10 +3,14 @@
   "public": true,
   "functions": {
     "api/index.php": {
-      "runtime": "vercel-php"
+      "runtime": "vercel-php@0.6.0"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/api/index.php" }
-  ]
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ],
+  "outputDirectory": "public"
 }
