@@ -1,9 +1,14 @@
 {
   "version": 2,
+  "public": true,
   "functions": {
     "api/index.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.7.5"
     }
+  },
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "false"
   },
   "routes": [
     {
