@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "framework": "laravel",
+    "public": true,
+    "rewrites": [
+        { "source": "/(.*)", "destination": "/api/index.php" }
+    ]
+}
